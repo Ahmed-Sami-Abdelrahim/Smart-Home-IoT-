@@ -1,0 +1,214 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #020202;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #012943;
+  padding: 20px;
+  flex: 1;
+  min-height: 100vh; /* Ensure the app takes the full height of the viewport */
+}
+
+
+
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  flex: 1; /* Allows content to grow and push the footer if needed */
+}
+
+.device-form-container {
+  background: white;
+  padding: 20px;
+  border: 8px solid #0e0c0c;
+  border-radius: 25px;
+  box-shadow:  10px 14px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto; /* Centered and spaced from other content */ 
+
+}
+
+.device-form-container h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.device-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.device-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 5px solid #012943;
+  border-radius: 15px;
+}
+
+.device-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 10;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #012943;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.device-form button:hover {
+  background-color: #012943;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.device-container {
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 5px;
+  width: 100%;
+  max-width: 1200px;
+  max-height: 440px; /* Adjust height as needed */
+  overflow-y: auto; /* Scrollable if content exceeds height */
+  padding: 10px;
+  border-radius: 25px; 
+  background: rgb(9, 8, 8);
+  border-bottom: 10px solid rgba(255, 255, 255, 0.2); /* Subtle bottom border */
+  justify-content: center;
+
+}
+
+
+.no-devices {
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 380px;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 5px; 
+  width: 100%;
+}
+
+
+
+
+.device-card {
+  background: white;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border:8px solid #014572;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.4s;
+}
+
+.device-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.device-card h3 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.device-card p {
+  margin: 10px 0;
+}
+
+
+.device-card button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #012943;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.device-card button:hover {
+  background-color: #012943;
+}
+
+.weather {
+  position: absolute;
+  right: 50px;
+  top: 120px; 
+  background: #3582d0;
+  padding: 22px;
+  border: 8px solid #010303;
+  border-radius: 25px;
+  width: 250px;
+  height: 210px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow:  10px 14px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+
+}
+
+.weather form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.weather form input {
+  flex: 1;
+  font-size: 12px;
+  padding: 10px;
+  border: 5px solid #012943;
+  border-radius: 10px;
+}
+
+.weather form button {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #012943;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.weather form button:hover {
+  background-color: #012943;
+}
+
+
+
+

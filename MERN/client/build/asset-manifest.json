@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76b34081.css",
+    "main.js": "/static/js/main.4c55d5f2.js",
+    "static/media/weather.png": "/static/media/weather.0b813c2f8ca1429e1805.png",
+    "static/media/home.png": "/static/media/home.13e39e6de61d2671e87d.png",
+    "static/media/VA.png": "/static/media/VA.42de6bead034b912edf3.png",
+    "static/media/lamp.png": "/static/media/lamp.7dd1f6f9bab57880bcca.png",
+    "static/media/tv.png": "/static/media/tv.4109995d463f6cf7c28e.png",
+    "static/media/wifi.png": "/static/media/wifi.6e69a5be8e3231abf56f.png",
+    "index.html": "/index.html",
+    "main.76b34081.css.map": "/static/css/main.76b34081.css.map",
+    "main.4c55d5f2.js.map": "/static/js/main.4c55d5f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76b34081.css",
+    "static/js/main.4c55d5f2.js"
+  ]
+}
