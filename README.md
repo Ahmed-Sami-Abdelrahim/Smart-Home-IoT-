@@ -1,6 +1,6 @@
 # Smart Home IoT Project
 
-https://github.com/user-attachments/assets/eccd9459-28f5-41d0-84bf-943531166d52
+https://github.com/user-attachments/assets/54d9e48f-9baa-43d5-8ccd-32b7958e77df
 
 ## Overview
 
