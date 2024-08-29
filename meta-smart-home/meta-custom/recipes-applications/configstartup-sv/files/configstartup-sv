@@ -1,0 +1,21 @@
+#!/bin/sh 
+# source function library 
+# . /etc/init.d/functions
+
+case "$1" in 
+start)
+wpa_supplicant -iwlan0 -c/etc/wpa/wpa_supplicant.conf &
+dhcpd & 
+device-control & 
+modprobe gpiodriver
+;;
+
+stop)
+;;
+
+restart) ;;
+*) 
+exit 1 
+
+esac
+exit 0
