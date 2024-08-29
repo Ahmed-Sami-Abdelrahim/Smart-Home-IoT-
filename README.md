@@ -1,5 +1,7 @@
 # Smart Home IoT Project
 
+https://github.com/user-attachments/assets/eccd9459-28f5-41d0-84bf-943531166d52
+
 ## Overview
 
 This project is a comprehensive Smart Home IoT system designed to enhance and automate home management. It integrates various components and technologies to create a robust and versatile smart home solution.
@@ -31,4 +33,5 @@ This project is a comprehensive Smart Home IoT system designed to enhance and au
 - **MongoDB** (for database operations)
 
 
-[SMART-HOME.webm](https://github.com/user-attachments/assets/8de83f3f-1b8a-445a-9e71-60e5226c57aa)
+
+
