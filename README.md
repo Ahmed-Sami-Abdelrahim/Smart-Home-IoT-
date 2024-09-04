@@ -22,7 +22,7 @@ This project is a comprehensive Smart Home IoT system designed to enhance and au
 - **Device Driver**: Kernel module for interfacing with specific hardware "C".
 - **Database**: MongoDB for storing and managing data.
 - **Configuration**: Yocto-based image for embedded systems on Raspberry Pi.
-- 
+  
 ### Prerequisites
 
 - **Node.js and npm** (for the frontend, backend, and development tools)
